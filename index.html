@@ -6,6 +6,16 @@
   <title>P. Tarun Sai · Data Analyst</title>
   <meta name="description" content="Portfolio of P. Tarun Sai, a Data Analyst skilled in SQL, Python, Excel and Power BI. B.Tech CSE (Data Science), seeking Data Analyst roles and internships.">
   <meta name="theme-color" content="#F3EFE4">
+  <link rel="canonical" href="https://tarun-sai99.github.io/portfolio/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="P. Tarun Sai · Data Analyst">
+  <meta property="og:description" content="SQL, Python, Excel and Power BI. Four data-analysis projects, from raw data to findings.">
+  <meta property="og:url" content="https://tarun-sai99.github.io/portfolio/">
+  <meta property="og:image" content="https://tarun-sai99.github.io/portfolio/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <script>try{var t=localStorage.getItem("theme");if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.dataset.theme=t}catch(e){}</script>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2316171A'/%3E%3Crect x='6' y='16' width='5' height='10' fill='%23F3EFE4'/%3E%3Crect x='13.5' y='10' width='5' height='16' fill='%23F3EFE4'/%3E%3Crect x='21' y='5' width='5' height='21' fill='%23FF6B47'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,6 +32,9 @@
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </nav>
+    <button class="theme" type="button" id="theme" aria-label="Switch between light and dark theme">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/></svg>
+    </button>
   </header>
 
   <main id="main">
@@ -144,11 +157,46 @@
       </ol>
     </section>
 
+    <!-- PROCESS -->
+    <section class="process wrap" id="process">
+      <header class="sec-head reveal">
+        <span class="sec-no">03</span>
+        <h2>How I work</h2>
+        <p class="sec-note">The same four steps in every project. Each links to the real file.</p>
+      </header>
+      <ol class="steps">
+        <li class="reveal">
+          <span class="n">1</span>
+          <h3>Profile</h3>
+          <p>Run checks on the raw data before touching it. 16 checks on 114,000 F1 rows found missing values stored as text and impossible lap times.</p>
+          <a class="go" href="https://github.com/Tarun-Sai99/f1-performance-analysis-mysql/blob/HEAD/sql/02_profiling.sql">Profiling script <span aria-hidden="true">↗</span></a>
+        </li>
+        <li class="reveal">
+          <span class="n">2</span>
+          <h3>Clean</h3>
+          <p>Fix problems in recorded steps, never by hand. Duplicates removed, hidden "Unknown" gaps turned into real blanks, every change explained.</p>
+          <a class="go" href="https://github.com/Tarun-Sai99/historical-events-excel-analysis/blob/HEAD/docs/cleaning_log.md">Cleaning log <span aria-hidden="true">↗</span></a>
+        </li>
+        <li class="reveal">
+          <span class="n">3</span>
+          <h3>Analyse</h3>
+          <p>Turn business questions into queries. 15 questions on comic characters, answered with CTEs, window functions and lookup joins.</p>
+          <a class="go" href="https://github.com/Tarun-Sai99/marvel-dc-sql-analysis/blob/HEAD/sql/03_analysis.sql">Analysis queries <span aria-hidden="true">↗</span></a>
+        </li>
+        <li class="reveal">
+          <span class="n">4</span>
+          <h3>Report</h3>
+          <p>Say what the numbers mean, and where they fall short. Written insights, recommendations and limitations next to the dashboard.</p>
+          <a class="go" href="https://github.com/Tarun-Sai99/video-game-sales-analysis/blob/HEAD/docs/insights.md">Insights write-up <span aria-hidden="true">↗</span></a>
+        </li>
+      </ol>
+    </section>
+
     <!-- CONTACT -->
     <section class="contact" id="contact">
       <div class="wrap">
         <header class="sec-head reveal">
-          <span class="sec-no">03</span>
+          <span class="sec-no">04</span>
           <h2>Contact</h2>
         </header>
         <p class="contact-big reveal">Have data that needs answers? <em>Let's talk.</em></p>
