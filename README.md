@@ -21,6 +21,7 @@ Fonts load from Google Fonts. Offline, the page falls back to Georgia and system
 | `script.js` | Scroll reveal, theme toggle, footer year |
 | `photo.png` | Portrait shown in About. Replace the file (keep the name) to change it |
 | `og.png` | Preview image shown when the link is shared on LinkedIn, WhatsApp, etc. |
+| `images/` | Project thumbnails (WebP, about 30 KB each), one per project row |
 
 ## Design choices (adjust these)
 
