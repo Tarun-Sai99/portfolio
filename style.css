@@ -137,6 +137,8 @@ section { padding-block: clamp(56px, 9vw, 110px); }
 .skills li { display: flex; flex-direction: column; padding: 14px 0; border-bottom: 1px solid var(--rule); transition: padding-left .25s; }
 .skills li:hover { padding-left: 10px; }
 .skills b { font: 600 1.6rem/1.2 var(--serif); }
+.tag { font: 500 .65rem var(--mono); font-style: normal; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); border: 1px solid var(--accent); border-radius: 99px; padding: 2px 8px; margin-left: 8px; vertical-align: .25em; white-space: nowrap; }
+.place { font: 400 clamp(1.05rem, 2.6vw, 1.4rem) var(--serif); color: var(--band-fg); }
 .skills li:hover b { color: var(--accent); }
 .skills span { font: 400 .85rem var(--mono); color: var(--muted); margin-top: 2px; }
 
