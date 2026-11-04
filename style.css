@@ -85,6 +85,15 @@ a { color: inherit; }
 }
 .top nav a:hover { color: var(--ink); background-size: 100% 2px; }
 
+@media (max-width: 640px) {
+  .top { flex-wrap: wrap; padding: 10px 16px 8px; row-gap: 4px; }
+  .mark { order: 1; }
+  .theme { order: 2; margin-left: auto; width: 32px; height: 32px; }
+  .top nav { order: 3; flex-basis: 100%; margin-left: 0; justify-content: space-between; gap: 8px; }
+  .top nav a { font-size: .7rem; letter-spacing: .06em; }
+  html { scroll-padding-top: 96px; }
+}
+
 /* ---------- Hero ---------- */
 .hero { padding-block: clamp(56px, 10vw, 120px) clamp(40px, 6vw, 80px); }
 .dot {
