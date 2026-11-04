@@ -17,6 +17,7 @@ The fonts load from Google Fonts, so you need an internet connection to see them
 | `index.html` | All content: hero, about, four projects, contact |
 | `style.css` | All styling. Colors, fonts and spacing are variables at the top |
 | `script.js` | Scroll reveal and the footer year (about 20 lines) |
+| `photo.png` | Your portrait, shown in the About section. Replace the file (keep the name) to change it |
 
 ## Design choices (adjust these)
 
