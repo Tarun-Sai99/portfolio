@@ -196,6 +196,17 @@ section { padding-block: clamp(56px, 9vw, 110px); }
   .stat { grid-column: 3; text-align: right; }
 }
 
+/* ---------- Certificates ---------- */
+.cert-group { display: grid; gap: 6px 32px; padding: 22px 0; border-bottom: 1px solid var(--rule); }
+.cert-group h3 { padding-top: .35rem; }
+.cert-group ul { list-style: none; margin: 0; padding: 0; }
+.cert-group li { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 2px 20px; padding: 6px 0; }
+.cert-group li a { font: 600 1.2rem/1.35 var(--serif); text-decoration: none; background: linear-gradient(var(--accent), var(--accent)) 0 100% / 0 2px no-repeat; transition: background-size .3s, color .2s; }
+.cert-group li a:hover { color: var(--accent); background-size: 100% 2px; }
+.cert-group li a span { color: var(--accent); }
+.cert-group .by { font: 400 .78rem var(--mono); color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
+@media (min-width: 760px) { .cert-group { grid-template-columns: 180px 1fr; } }
+
 /* ---------- Process ---------- */
 .steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; counter-reset: s; }
 .steps li { padding: 28px 0; border-bottom: 1px solid var(--rule); display: grid; gap: 6px; }
